@@ -1,0 +1,73 @@
+{
+  "users": {
+    "admin@goohost.com": {
+      "password": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+      "is_admin": true,
+      "created_at": "2026-11-16 16:21:39.468155",
+      "max_servers": 999999,
+      "expiry_days": 3650,
+      "last_login": null,
+      "telegram_id": null,
+      "api_key": null,
+      "storage_limit": 10240000,
+      "plan": "admin"
+    },
+    "raliwai4@gmail.com": {
+      "password": "45d2470e74fda0184d15c2ada6542cc561dc4875e56523e804ac0548e66cc998",
+      "is_admin": false,
+      "created_at": "2026-11-16 16:22:17.095087",
+      "max_servers": 5,
+      "expiry_days": 365,
+      "last_login": "2026-11-16 16:22:27.544624",
+      "telegram_id": null,
+      "api_key": null,
+      "storage_limit": 102400,
+      "plan": "basic"
+    }
+  },
+  "servers": {
+    "raliwai4_at_gmail_dot_com_Hhh_1794842556": {
+      "name": "Hhh",
+      "owner": "raliwai4@gmail.com",
+      "path": "/storage/emulated/0/hosssttesssssst/USERS/raliwai4_at_gmail_dot_com/SERVERS/raliwai4_at_gmail_dot_com_Hhh_1794842556",
+      "type": "Python",
+      "status": "Running",
+      "created_at": "2026-11-16 16:22:37.015599",
+      "startup_file": "main.py",
+      "pid": 22375,
+      "port": 8100,
+      "plan": "basic",
+      "storage_limit": 102400,
+      "ram_limit": 512,
+      "cpu_limit": 0.5,
+      "start_time": 1794842597.6105566
+    }
+  },
+  "logs": [],
+  "plans": {
+    "basic": {
+      "name": "أساسية",
+      "storage": 102400,
+      "ram": 512,
+      "cpu": 0.5,
+      "max_servers": 5,
+      "price": 0
+    },
+    "premium": {
+      "name": "احترافية",
+      "storage": 512000,
+      "ram": 2048,
+      "cpu": 1.5,
+      "max_servers": 15,
+      "price": 9.99
+    },
+    "ultimate": {
+      "name": "أسطورية",
+      "storage": 2048000,
+      "ram": 8192,
+      "cpu": 4,
+      "max_servers": 30,
+      "price": 24.99
+    }
+  }
+}
